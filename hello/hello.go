@@ -5,11 +5,12 @@ import (
 	"fmt"
 )
 
-// Returns a greeting string
-func greeting() string {
-	return "Hello World"
+// Returns a greeting string to `name`. If `name`
+// is empty or nil, defaults to `world`.
+func greeting(name string) string {
+	return "Hello " + name
 }
 
 func main() {
-	fmt.Println(greeting())
+	fmt.Println(greeting("Kirby"))
 }
