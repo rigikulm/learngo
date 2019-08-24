@@ -6,8 +6,11 @@ import (
 )
 
 // Returns a greeting string to `name`. If `name`
-// is empty or nil, defaults to `world`.
+// is empty defaults to `World`.
 func greeting(name string) string {
+	if name == "" {
+		name = "World"
+	}
 	return "Hello " + name
 }
 
