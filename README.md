@@ -10,7 +10,7 @@ language which I have listed below.
 
 ## Code Samples and Notes
 ### hello
-This is a test
+This is a test.
 
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/rigikulm/learngo)](https://goreportcard.com/report/github.com/rigikulm/learngo)
