@@ -12,6 +12,5 @@ language which I have listed below.
 ### hello
 This is a test.
 
-
 [![Go Report Card](https://goreportcard.com/badge/github.com/rigikulm/learngo)](https://goreportcard.com/report/github.com/rigikulm/learngo)
 [![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/rigikulm/learngo)

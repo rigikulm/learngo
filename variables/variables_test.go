@@ -5,11 +5,11 @@ import "fmt"
 
 func TestAddr(t *testing.T) {
 	expected := 4
-	sum := Add(2,2)
+	sum := Add(2, 2)
 
 	if sum != expected {
 		t.Errorf("expected '%d' but got '%d'", expected, sum)
-	}	
+	}
 }
 
 // Adds two integers and returns their sum
