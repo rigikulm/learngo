@@ -11,7 +11,25 @@ language which I have listed below.
 
 ## Code Samples and Notes
 ### hello
-This is a test.
+Hello world example that demonstrates TDD and approaches to refactoring.
+[Hello code](https://github.com/rigikulm/learngo/tree/master/hello)
+
+### Variables
+This does foo
+[Variables code](https://github.com/rigikulm/learngo/tree/master/variables)
+
+### Structs
+This does foo
+[Structs code](https://github.com/rigikulm/learngo/tree/master/structs)
+
+### Iteration
+This does foo
+[Iteration code](https://github.com/rigikulm/learngo/tree/master/iteration)
+
+### Pointers
+This does foo
+[Pointers code](https://github.com/rigikulm/learngo/tree/master/pointers)
+
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/rigikulm/learngo)](https://goreportcard.com/report/github.com/rigikulm/learngo)
 [![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/rigikulm/learngo)
