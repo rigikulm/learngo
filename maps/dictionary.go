@@ -1,8 +1,21 @@
 // Sample code to demonstrate the use of maps
 package maps
 
+import "errors"
+
 type Dictionary map[string]string
 
-func (d Dictionary) Search(dictionary map[string]string, word string) string {
-	return d[word]
+var ErrNotFound = errors.New("could not find the word you were looking for")
+
+func (d Dictionary) Search(word string) (string, error) {
+	definition, ok := d[word]
+	if !ok {
+		return "", ErrNotFound
+	}
+	return definition, nil
+}
+
+// Add a new definition to the dictionary
+func (d Dictionary) Add(word, definition string) {
+	d[word] = definition
 }
