@@ -6,10 +6,10 @@ type Dictionary map[string]string
 
 const (
 	// ErrNotFound means the requested word was not found in the dictionary
-	ErrNotFound         = DictionaryErr("could not find the word you were looking for")
+	ErrNotFound = DictionaryErr("could not find the word you were looking for")
 
 	// ErrWordExists indicates you are trying to add a word that already exists
-	ErrWordExists       = DictionaryErr("cannot add word because it already exists")
+	ErrWordExists = DictionaryErr("cannot add word because it already exists")
 
 	// ErrWordDoesNotExist occure when trying to update a word that is not in the dictionary
 	ErrWordDoesNotExist = DictionaryErr("cannot update word because it does not exist")
